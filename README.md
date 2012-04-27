@@ -8,3 +8,5 @@ Requirements:
 
 * Link to jQuery
 * Use HTML5 Boilerplate, specifically the HTML **head** block
+
+Follow me at <a href="http://twitter.com/teleject">Christopher Schmitt</a>
