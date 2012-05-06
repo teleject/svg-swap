@@ -12,11 +12,11 @@ A simple jQuery plugin for swapping SVG image with a raster image for older IE v
 ## How to use:
 ========
 
-Set up an img element with a fall back GIF, JPEG, PNG-8 image 
+Set up an inline SVG `img` element:  
 
 `<img src="example.svg" alt="" />`
 
-Then apply an alternative GIF, JPEG, PNG-8 image via data-svgswap attribute:
+Then apply an alternative GIF, JPEG, PNG-8 image via `data-svgswap` attribute:
 
 `<img src="example.svg" data-svgswap="example.png"  alt="" />`
 
@@ -48,7 +48,7 @@ $(".svgswap img").svgswap();
 
 ## Special thanks
 ========
- <a href="http://twitter.com/1Marc">Marc Grabanski</a>. 
+ <a href="http://twitter.com/1Marc">Marc Grabanski</a>
 
 ## I'm mostly not witty on Twitter
 ========
