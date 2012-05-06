@@ -18,7 +18,7 @@ Set up an img element with a fall back GIF, JPEG, PNG-8 image
 
 Then apply an alternative GIF, JPEG, PNG-8 image via data-svgswap attribute:
 
-`<img src="example.svg" **data-svgswap="example.png"**  alt="" />`
+`<img src="example.svg" data-svgswap="example.png"  alt="" />`
 
 Use HTML5 Boilerplate or at least the conditional comments:
 
@@ -46,7 +46,10 @@ $(".svgswap img").svgswap();
 })
 </script>`
 
+## Special thanks
 ========
+ <a href="http://twitter.com/1Marc">Marc Grabanski</a>. 
 
-Thanks to <a href="http://twitter.com/1Marc">Marc Grabanski<a/>. 
-Follow me at <a href="http://twitter.com/teleject">Christopher Schmitt</a>
+## I'm mostly not witty on Twitter
+========
+<a href="http://twitter.com/teleject">Christopher Schmitt</a>
