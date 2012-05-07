@@ -1,6 +1,6 @@
 (function($){
 	$.svgswap = {
-		els: $(),
+		els: $()
 	}
 
 	$.fn.svgswap = function(options) {
