@@ -1,7 +1,11 @@
 # SVG-Swap
 ========
 
+<<<<<<< HEAD
 A simple jQuery plugin for swapping SVG image with a raster image for older IE versions. ([Example](http://teleject.github.com/svg-swap/))
+=======
+A simple jQuery plugin for swapping SVG image with a raster image for older IE versions. 
+>>>>>>> changed README instructions
 
 ## Requirements:
 ========
@@ -12,7 +16,7 @@ A simple jQuery plugin for swapping SVG image with a raster image for older IE v
 ## How to use:
 ========
 
-Set up an inline SVG `img` element:  
+Set up an inline SVG `img` element:
 
 `<img src="example.svg" alt="" />`
 
@@ -34,7 +38,7 @@ Link to jQuery:
 Hook up SVG-Swap plugin:
 
 `<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>`
-**`<script src="svgswap.jquery.js"></script>`**
+`<script src="svgswap.jquery.js"></script>`
 
 Tell the browser which image to swap, if older version of IE is detected:
 
@@ -42,7 +46,7 @@ Tell the browser which image to swap, if older version of IE is detected:
 `<script src="svgswap.jquery.js"></script>`
 `<script>
 $(document).ready(function(){
-$(".svgswap img").svgswap();
+$("img[svgswap]").svgswap();
 })
 </script>`
 
